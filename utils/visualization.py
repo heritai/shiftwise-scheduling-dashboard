@@ -115,21 +115,21 @@ def create_demand_vs_staff_chart(demand_df: pd.DataFrame, schedule_df: pd.DataFr
     fig.update_layout(
         title=dict(
             text=title,
-            font=dict(size=24, color=colors['text'], family="Arial, sans-serif"),
+            font=dict(size=24, color=colors['text']),
             x=0.5,
             xanchor='center'
         ),
         xaxis=dict(
             title='Date',
-            titlefont=dict(size=16, color=colors['text'], family="Arial, sans-serif"),
-            tickfont=dict(size=14, color=colors['text'], family="Arial, sans-serif"),
+            titlefont=dict(size=16, color=colors['text']),
+            tickfont=dict(size=14, color=colors['text']),
             gridcolor=colors['text_secondary'],
             color=colors['text']
         ),
         yaxis=dict(
             title='Number of Customers',
-            titlefont=dict(size=16, color=colors['text'], family="Arial, sans-serif"),
-            tickfont=dict(size=14, color=colors['text'], family="Arial, sans-serif"),
+            titlefont=dict(size=16, color=colors['text']),
+            tickfont=dict(size=14, color=colors['text']),
             gridcolor=colors['text_secondary'],
             color=colors['text']
         ),
@@ -143,7 +143,7 @@ def create_demand_vs_staff_chart(demand_df: pd.DataFrame, schedule_df: pd.DataFr
             yanchor='top',   # Anchor to top edge
             bgcolor=colors['surface'],
             bordercolor=colors['text_secondary'],
-            font=dict(size=14, color=colors['text'], family="Arial, sans-serif")
+            font=dict(size=14, color=colors['text'])
         ),
         margin=dict(r=150)  # Add right margin to accommodate legend
     )
@@ -172,7 +172,7 @@ def create_cost_breakdown_chart(schedule_df: pd.DataFrame, title: str = "Cost Br
     fig.update_layout(
         title=dict(
             text=title,
-            font=dict(size=22, color=colors['text'], family="Arial, sans-serif"),
+            font=dict(size=22, color=colors['text']),
             x=0.5,
             xanchor='center'
         ),
@@ -186,7 +186,7 @@ def create_cost_breakdown_chart(schedule_df: pd.DataFrame, title: str = "Cost Br
             yanchor='top',
             bgcolor=colors['surface'],
             bordercolor=colors['text_secondary'],
-            font=dict(size=14, color=colors['text'], family="Arial, sans-serif")
+            font=dict(size=14, color=colors['text'])
         ),
         margin=dict(r=150)
     )
@@ -222,21 +222,21 @@ def create_weekly_hours_chart(schedule_df: pd.DataFrame, title: str = "Weekly Ho
     fig.update_layout(
         title=dict(
             text=title,
-            font=dict(size=22, color=colors['text'], family="Arial, sans-serif"),
+            font=dict(size=22, color=colors['text']),
             x=0.5,
             xanchor='center'
         ),
         xaxis=dict(
             title='Week',
-            titlefont=dict(size=16, color=colors['text'], family="Arial, sans-serif"),
-            tickfont=dict(size=14, color=colors['text'], family="Arial, sans-serif"),
+            titlefont=dict(size=16, color=colors['text']),
+            tickfont=dict(size=14, color=colors['text']),
             gridcolor=colors['text_secondary'],
             color=colors['text']
         ),
         yaxis=dict(
             title='Total Hours',
-            titlefont=dict(size=16, color=colors['text'], family="Arial, sans-serif"),
-            tickfont=dict(size=14, color=colors['text'], family="Arial, sans-serif"),
+            titlefont=dict(size=16, color=colors['text']),
+            tickfont=dict(size=14, color=colors['text']),
             gridcolor=colors['text_secondary'],
             color=colors['text']
         ),
@@ -250,7 +250,7 @@ def create_weekly_hours_chart(schedule_df: pd.DataFrame, title: str = "Weekly Ho
             yanchor='top',
             bgcolor=colors['surface'],
             bordercolor=colors['text_secondary'],
-            font=dict(size=14, color=colors['text'], family="Arial, sans-serif")
+            font=dict(size=14, color=colors['text'])
         ),
         margin=dict(r=150)
     )
@@ -289,7 +289,7 @@ def create_employee_utilization_chart(schedule_df: pd.DataFrame, title: str = "E
     fig.update_layout(
         title=dict(
             text=title,
-            font=dict(size=22, color=colors['text'], family="Arial, sans-serif"),
+            font=dict(size=22, color=colors['text']),
             x=0.5,
             xanchor='center'
         ),
@@ -314,7 +314,7 @@ def create_employee_utilization_chart(schedule_df: pd.DataFrame, title: str = "E
             yanchor='top',
             bgcolor=colors['surface'],
             bordercolor=colors['text_secondary'],
-            font=dict(size=14, color=colors['text'], family="Arial, sans-serif")
+            font=dict(size=14, color=colors['text'])
         ),
         margin=dict(r=150)
     )
@@ -351,7 +351,7 @@ def create_heatmap(schedule_df: pd.DataFrame, title: str = "Schedule Heatmap") -
     fig.update_layout(
         title=dict(
             text=title,
-            font=dict(size=22, color=colors['text'], family="Arial, sans-serif"),
+            font=dict(size=22, color=colors['text']),
             x=0.5,
             xanchor='center'
         ),
@@ -375,7 +375,7 @@ def create_heatmap(schedule_df: pd.DataFrame, title: str = "Schedule Heatmap") -
             yanchor='top',
             bgcolor=colors['surface'],
             bordercolor=colors['text_secondary'],
-            font=dict(size=14, color=colors['text'], family="Arial, sans-serif")
+            font=dict(size=14, color=colors['text'])
         ),
         margin=dict(r=150)
     )
