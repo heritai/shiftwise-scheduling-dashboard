@@ -1,0 +1,26 @@
+EmployeeID,Name,Role,HourlyWage,MaxWeeklyHours,PreferredDays,WeekendPreference,SkillLevel,IsPartTime
+EMP001,Employee 1,cashier,15.820428338635358,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",True,1,False
+EMP002,Employee 2,cashier,16.285953742519787,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",False,1,False
+EMP003,Employee 3,cashier,14.796865445085247,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",False,1,False
+EMP004,Employee 4,cashier,14.828467939771924,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",False,1,False
+EMP005,Employee 5,cashier,14.209614563402463,22,"['Friday', 'Sunday', 'Wednesday']",True,1,True
+EMP006,Employee 6,cashier,15.656586272340402,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",False,1,False
+EMP007,Employee 7,cashier,15.750782844572324,19,"['Sunday', 'Monday', 'Saturday']",True,1,True
+EMP008,Employee 8,cashier,15.70445307846506,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",False,1,False
+EMP009,Employee 9,cashier,15.96971012459694,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",False,1,False
+EMP010,Employee 10,cashier,15.427227852001181,23,"['Saturday', 'Thursday', 'Tuesday']",False,1,True
+EMP011,Employee 11,cashier,15.725463086542877,16,"['Thursday', 'Monday']",True,1,True
+EMP012,Employee 12,cashier,15.401503200255519,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",True,1,False
+EMP013,Employee 13,stock,15.916882677616423,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",True,2,False
+EMP014,Employee 14,stock,16.59823370148218,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",False,2,False
+EMP015,Employee 15,stock,17.92267830474138,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",False,2,False
+EMP016,Employee 16,stock,16.442785888793228,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",False,2,False
+EMP017,Employee 17,stock,15.458763853074736,17,"['Thursday', 'Tuesday']",True,2,True
+EMP018,Employee 18,stock,16.78361953707946,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",False,2,False
+EMP019,Employee 19,stock,16.765584872047622,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",True,2,False
+EMP020,Employee 20,stock,16.51016294764954,40,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",True,2,False
+EMP021,Employee 21,supervisor,22.652051451419975,45,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",True,3,False
+EMP022,Employee 22,supervisor,22.53857741216909,45,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",False,3,False
+EMP023,Employee 23,supervisor,21.764551310966866,45,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",True,3,False
+EMP024,Employee 24,supervisor,23.169562931419527,45,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",True,3,False
+EMP025,Employee 25,supervisor,22.313921339620663,45,"['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']",True,3,False
