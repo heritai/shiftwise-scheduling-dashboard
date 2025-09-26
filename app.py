@@ -286,8 +286,12 @@ def show_global_insights(employees_df, demand_df, availability_df):
     mock_schedule_df = staff_coverage_df.copy()
     mock_schedule_df['HoursWorked'] = staff_coverage_df['HoursAvailable']
     
-    fig = create_demand_vs_staff_chart(demand_df, mock_schedule_df)
-    st.plotly_chart(fig, use_container_width=True)
+    try:
+        fig = create_demand_vs_staff_chart(demand_df, mock_schedule_df)
+        if fig:
+            st.plotly_chart(fig, use_container_width=True)
+    except Exception as e:
+        st.error(f"Error creating chart: {str(e)}")
     
     # Insight text
     st.markdown("""
