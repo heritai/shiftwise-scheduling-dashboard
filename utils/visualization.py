@@ -120,15 +120,13 @@ def create_demand_vs_staff_chart(demand_df: pd.DataFrame, schedule_df: pd.DataFr
             xanchor='center'
         ),
         xaxis=dict(
-            title='Date',
-            titlefont=dict(size=16, color=colors['text']),
+            title=dict(text='Date', font=dict(size=16, color=colors['text'])),
             tickfont=dict(size=14, color=colors['text']),
             gridcolor=colors['text_secondary'],
             color=colors['text']
         ),
         yaxis=dict(
-            title='Number of Customers',
-            titlefont=dict(size=16, color=colors['text']),
+            title=dict(text='Number of Customers', font=dict(size=16, color=colors['text'])),
             tickfont=dict(size=14, color=colors['text']),
             gridcolor=colors['text_secondary'],
             color=colors['text']
@@ -227,15 +225,13 @@ def create_weekly_hours_chart(schedule_df: pd.DataFrame, title: str = "Weekly Ho
             xanchor='center'
         ),
         xaxis=dict(
-            title='Week',
-            titlefont=dict(size=16, color=colors['text']),
+            title=dict(text='Week', font=dict(size=16, color=colors['text'])),
             tickfont=dict(size=14, color=colors['text']),
             gridcolor=colors['text_secondary'],
             color=colors['text']
         ),
         yaxis=dict(
-            title='Total Hours',
-            titlefont=dict(size=16, color=colors['text']),
+            title=dict(text='Total Hours', font=dict(size=16, color=colors['text'])),
             tickfont=dict(size=14, color=colors['text']),
             gridcolor=colors['text_secondary'],
             color=colors['text']
