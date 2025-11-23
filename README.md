@@ -4,11 +4,11 @@
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
 [![OR-Tools](https://img.shields.io/badge/OR--Tools-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/optimization)
 
-> **Transform workforce scheduling: Cut labor costs and boost efficiency with AI.**
+> **Transform workforce scheduling, cut labor costs, and boost efficiency with AI.**
 
 ## 🚨 The Problem
 
-Manual scheduling frequently results in costly overtime, inadequate coverage, and employee dissatisfaction. Retail managers often dedicate countless hours each week balancing fluctuating demand, employee availability, and labor costs, leading to:
+Manual scheduling frequently results in costly overtime, inadequate coverage, and employee dissatisfaction. Retail managers often dedicate countless hours each week balancing fluctuating demand, employee availability, and labor costs. This often results in:
 
 -   **High overtime costs** due to reactive and inefficient scheduling
 -   **Suboptimal shift coverage** during critical peak hours
@@ -112,7 +112,7 @@ shiftwise-scheduling-dashboard/
 
 ### Data Pipeline
 -   **Synthetic Data Generation:** Includes realistic employee and demand patterns for demonstration purposes.
--   **Real-time Processing:** Ensures rapid data preparation and optimization cycles.
+-   **Real-time Processing:** Ensures rapid data processing and optimization cycles.
 -   **Caching Strategy:** Leverages Streamlit caching for significantly improved performance and dashboard responsiveness.
 -   **Error Handling:** Implements robust error management with clear, actionable user feedback.
 
