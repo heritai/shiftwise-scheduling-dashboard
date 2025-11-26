@@ -8,30 +8,30 @@
 
 ## 🚨 The Problem
 
-Manual scheduling often leads to costly overtime, inadequate shift coverage, and decreased employee satisfaction. Retail managers frequently spend countless hours each week trying to balance fluctuating demand, employee availability, and labor costs. This often results in:
+Manual scheduling often leads to costly overtime, inadequate shift coverage, and decreased employee satisfaction. Retail managers frequently spend countless hours each week trying to balance fluctuating demand, employee availability, and labor costs. This typically leads to:
 
--   **High overtime costs** stemming from reactive and inefficient scheduling
--   **Suboptimal shift coverage** during critical peak hours
--   **Decreased employee satisfaction** from unpredictable and unfair schedules
--   **Manager burnout** due to continuous, time-consuming schedule adjustments
+-   **Excessive overtime costs** due to reactive and inefficient scheduling.
+-   **Suboptimal shift coverage** during critical peak periods.
+-   **Reduced employee satisfaction** from unpredictable and inequitable schedules.
+-   **Manager burnout** caused by continuous, time-consuming schedule adjustments.
 
 ## ✅ The Solution
 
-ShiftWise is a comprehensive, AI-powered dashboard engineered to create optimized staff schedules by intelligently balancing demand, employee availability, and labor rules. Our advanced optimization engine is designed to:
+ShiftWise is a comprehensive, AI-powered dashboard designed to create optimized staff schedules by intelligently balancing demand, employee availability, and labor rules. Our advanced optimization engine empowers you to:
 
--   **Minimize labor costs** while consistently meeting all coverage requirements
--   **Respect employee preferences** and availability constraints, fostering better work-life balance
--   **Ensure essential supervisor coverage** for every shift
--   **Provide real-time insights** and robust scenario planning capabilities for proactive decision-making
+-   **Minimize labor costs** while consistently meeting all coverage requirements.
+-   **Respect employee preferences** and availability constraints, fostering improved work-life balance.
+-   **Ensure essential supervisor coverage** for every shift.
+-   **Provide real-time insights** and robust scenario planning capabilities for proactive decision-making.
 
 ## 📊 Results
 
-ShiftWise empowers retail chains to achieve significant improvements and quantifiable benefits, such as:
+ShiftWise empowers retail chains to achieve significant improvements and quantifiable benefits, including:
 
--   15-25% reduction in labor costs through truly optimized scheduling
--   Consistently 95%+ coverage of all demand requirements
--   5-10 hours saved weekly for managers, freeing up time for strategic tasks
--   Enhanced employee satisfaction with fair, predictable, and transparent schedules
+-   15-25% reduction in labor costs through truly optimized scheduling.
+-   Consistently 95%+ coverage of all demand requirements.
+-   5-10 hours saved weekly per manager, freeing up time for strategic tasks.
+-   Enhanced employee satisfaction with fair, predictable, and transparent schedules.
 
 ## 🚀 Quick Start
 
@@ -48,17 +48,23 @@ ShiftWise empowers retail chains to achieve significant improvements and quantif
     cd shiftwise-scheduling-dashboard
     ```
 
-2.  **Install dependencies**
+2.  **Create and activate a virtual environment (recommended)**
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate  # On Windows, use `.venv\Scripts\activate`
+    ```
+
+3.  **Install dependencies**
     ```bash
     pip install -r requirements.txt
     ```
 
-3.  **Run the application**
+4.  **Run the application**
     ```bash
     streamlit run app.py
     ```
 
-4.  **Access the Dashboard**
+5.  **Access the Dashboard**
     Navigate to `http://localhost:8501` to launch the ShiftWise dashboard.
 
 ## 🏗️ Project Structure
@@ -106,7 +112,7 @@ shiftwise-scheduling-dashboard/
 
 ### Optimization Engine
 -   **Google OR-Tools Constraint Programming:** Utilizes an industry-standard, robust optimization solver.
--   **Multi-objective Optimization:** Balances complex objectives such as cost, coverage, and employee satisfaction.
+-   **Multi-objective Optimization:** Balances complex objectives like cost, coverage, and employee satisfaction.
 -   **Constraint Management:** Dynamically handles intricate availability rules, skill requirements, and simulated labor law compliance for realistic scheduling.
 -   **Scalable Design:** Efficiently scales to manage schedules for 25+ employees across 90+ days, demonstrating robust performance.
 
@@ -119,18 +125,18 @@ shiftwise-scheduling-dashboard/
 ### Visualization
 -   **Interactive Charts:** Engaging and dynamic visualizations powered by Plotly for enhanced data exploration.
 -   **Dark/Light Mode:** Adaptive theming across all components to respect user preferences.
--   **High Contrast:** Optimized for readability and visual comfort in both light and dark modes.
+-   **High Contrast:** Optimized for readability and visual comfort in both light and and dark modes.
 -   **Accessible Design:** Incorporates color-blind friendly palettes to ensure broader accessibility.
 -   **Real-time Updates:** Dynamic charts provide immediate feedback, updating seamlessly with new data.
 
 ## 📊 Sample Data
 
-The application comes pre-loaded with 3 months of synthetic, yet realistic, sample data for immediate exploration and demonstration purposes:
+The application comes pre-loaded with 3 months of synthetic, yet realistic, sample data for immediate exploration and demonstration:
 
--   **25 Employees:** Spanning 3 distinct roles (Cashier, Stock, Supervisor) for varied scenarios.
+-   **25 Employees:** Spanning 3 distinct roles (Cashier, Stock, Supervisor) to demonstrate varied scenarios.
 -   **90 Days:** Comprehensive demand forecasts incorporating typical weekend patterns and seasonal variations.
--   **2,250 Availability Records:** Detailed records reflecting realistic employee constraints and preferences.
--   **Part-time & Full-time:** Employees with diverse availability patterns to simulate real-world scenarios.
+-      **2,250 Availability Records:** Detailed records reflecting realistic employee constraints and preferences.
+-   **Part-time & Full-time Employees:** With diverse availability patterns to simulate real-world scenarios.
 
 ### Key Data Patterns
 -   **Higher Weekend Demand:** Modeled with a typical 30-80% increase compared to weekday requirements.
@@ -169,7 +175,7 @@ The application comes pre-loaded with 3 months of synthetic, yet realistic, samp
 ## ⚠️ Important Disclaimers
 
 ### Demo Purposes Only
-This project primarily serves as a demonstration using synthetic data and simplified models, showcasing the core capabilities. A full-scale, real-world implementation would typically require:
+This project primarily serves as a demonstration using synthetic data and simplified models, showcasing core capabilities. A full-scale, real-world implementation would typically require:
 
 -   Seamless integration with existing HR and payroll systems (e.g., Workday, BambooHR).
 -   Sophisticated demand forecasting, often utilizing advanced machine learning models.
@@ -185,7 +191,7 @@ This project primarily serves as a demonstration using synthetic data and simpli
 
 ## 🤝 Contributing
 
-We warmly welcome contributions to ShiftWise! Please refer to our [Contributing Guidelines](CONTRIBUTING.md) for detailed instructions.
+We warmly welcome contributions to ShiftWise. Please refer to our [Contributing Guidelines](CONTRIBUTING.md) for detailed instructions.
 
 ### Development Setup
 1.  Fork the repository
